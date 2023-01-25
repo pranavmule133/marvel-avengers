@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: times new roman;
+    }
+
+    .section {
+      text-align: center;
+    }
+
+    .section .head {
+      margin: 2vw;
+    }
+
+    .section .h1 {
+      margin: 2vw;
+      font-size: 4vw;
+    }
+
+    .typed {
+      margin: 2vw;
+      font-size: 4vw;
+      color: red;
+    }
+
+    .section .main {
+      text-align: center;
+      margin: 0;
+    }
+
+
+
+    .section .main .main-all {
+      width: 40%;
+      margin: auto;
+      text-align: center;
+      border: solid .4vw black;
+      border-radius: 5vw;
+      padding: 3vw;
+      background-color: #D1D1D1;
+      margin: 3vw;
+    }
+
+    .section .main .main-alone {
+      margin: auto;
+    }
+
+
+    .section .main .main-all h1 {
+      font-size: 3vw;
+    }
+
+
+    .section .main .main-all h3 {
+      font-size: 2vw;
+    }
+
+
+    .section .main .main-all p {
+      margin: auto;
+      text-align: justify;
+    }
+
+    .section .main .main-all a {
+      font-size: 4vw;
+      color: black;
+    }
+
+    .section .main .main-all span img {
+      height: 20vw;
+      width: 14vw;
+    }
+
+    .section .main .main-flex {
+      display: flex;
+      justify-content: space-around;
+      margin: 2vw;
+    }
+
+
+    .footer {
+      font-family: times new roman;
+      text-align: center;
+      padding: 0 3vw;
+      color: var(--primary-color);
+    }
+
+    .footer h1 {
+      font-size: 3.5vw;
+    }
+
+    .footer p {
+      margin-bottom: 0;
+      margin-top: 2vw;
+      font-size: 1.8vw;
+    }
+
+    .footer a {
+      margin: 2vw 1vw;
+      border-radius: 3vw;
+      border: solid .2vw black;
+      font-size: 1.2vw;
+      padding: 1.5vw;
+      color: black;
+    }
+
+    .footer a:hover {
+      color: white;
+      background-color: black;
+    }
+
+
+
+    @media (max-width:400px) {
+
+      .main {
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .section .main .main-all {
+        width: 70%;
+      }
+
+      .section .main .main-all span img {
+        height: 25vw;
+        width: 20vw;
+      }
+
+      .main .main-flex {
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <section class="section">
+    <nav class="head">
+      <span class="h1">Avengers : The Real life Heros who saved World <span class="typed"></span></span>
+    </nav>
+    <div class="main">
+      <nav class="main-1 main-all main-alone">
+        <span> <img src="/images/Captain.jpeg"><img src="/images/Evans.jpeg"></span>
+        <h1><a
+            href="https://www.google.com/search?client=ms-android-xiaomi-rev1&sxsrf=ALeKk00YoMwBEp6dmKyIQnQhLgu5QPkzQw:1624598759171&q=Chris+Evans&stick=H4sIAAAAAAAAAONgFuLSz9U3SE62MDFLUeIEsU0tik1MtISyk6300zJzcsGEVXJicckiVm7njKLMYgXXssS84h2sjBPYGAE1qu1DQQAAAA&sa=X&ved=2ahUKEwjR-sT_hbLxAhVUmuYKHQu1DuQQgOQBegQIMBAE&biw=360&bih=648">Chris
+            Evans</a></h1>
+        <h3>Captain America</h3>
+        <p>Christopher Robert Evans is an American actor, best known for his role as Captain America in the Marvel
+          Cinematic Universe series of films.</p>
+      </nav>
+      <nav class="main-flex">
+        <nav class="main-2 main-all"> <span> <img src="/images/Iron.jpeg"><img src="/images/Robert.jpeg"></span>
+          <h1><a
+              href="https://www.google.com/search?q=robert+downey&oq=robert+downey&aqs=chrome..69i57j46i433j0j0i433.7535j0j7&client=ms-android-xiaomi-rev1&sourceid=chrome-mobile&ie=UTF-8">Robert
+              Downey</a></h1>
+          <h3>Iron Man</h3>
+          <p>Robert John Downey Jr. is an American actor and producer. His career has been characterized by critical and
+            popular success in his youth.</p>
+        </nav>
+        <nav class="main-3 main-all"> <span> <img src="/images/Thor.jpeg"><img src="/images/Hems.jpeg"></span>
+          <h1><a
+              href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwycorzDJg9OLMSM0tLs8vKskAAE1BB1s&q=hemsworth&oq=hems&aqs=chrome.1.69i57j46i433j0j0i433.3686j0j7&client=ms-android-xiaomi-rev1&sourceid=chrome-mobile&ie=UTF-8">Chris
+              Evans</a></h1>
+          <h3>Thor</h3>
+          <p>Christopher Hemsworth AM is an Australian actor. He first rose to prominence in Australia playing Kim Hyde
+            in the Australian television series Home and Away before beginning a film career in Hollywood.</p>
+        </nav>
+      </nav>
+      <nav class="main-flex">
+        <nav class="main-4 main-all"> <span> <img src="/images/Hulk.jpeg"><img src="/images/Mark.jpeg"></span>
+          <h1><a
+              href="https://www.google.com/search?q=hulk&client=ms-android-xiaomi-rev1&bih=592&biw=360&hl=en&sxsrf=ALeKk02DWObN97tPiQZME4vUDuAK7QtWyw%3A1624607661668&ei=rYvVYKuIKIeprtoPlvGg0Ak&oq=hulk&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBAgjECcyBwguELEDEEMyBAgAEEMyBAgAEEMyBQguELEDMgUIABCxAzIICC4QsQMQgwEyBQgAELEDOgIIADoHCCMQ6gIQJzoHCC4Q6gIQJzoECC4QJzoECC4QQzoICAAQsQMQgwE6AgguOgoILhCHAhCxAxAUULyCAljTigJghJECaAJwAHgAgAGTAogB-QiSAQMyLTWYAQCgAQGwAQ_AAQE&sclient=mobile-gws-wiz-serp">Mark
+              Ruffalo</a></h1>
+          <h3>Hulk</h3>
+          <p>Mark Alan Ruffalo is an American actor and producer. He began acting in the early 1990s and first gained
+            recognition for his work in Kenneth Lonergan's play.</p>
+        </nav>
+        <nav class="main-5 main-all"> <span> <img src="/images/Spider.jpeg"><img src="/images/Tobey.jpeg"></span>
+          <h1><a
+              href="https://www.google.com/search?q=tobey+maguire&source=lmns&bih=592&biw=360&client=ms-android-xiaomi-rev1&prmd=nibv&hl=en&sa=X&ved=2ahUKEwiC2-TdpbLxAhVLwnMBHeKbBlUQ_AUoAHoECAAQAw">Tobey
+              Maguire</a></h1>
+          <h3>Spider Man</h3>
+          <p>Tobias Vincent Maguire is an American actor and film producer. He is best known for his role as Peter
+            Parker / Spider-Man in Sam Raimi's Spider-Man trilogy.</p>
+        </nav>
+      </nav>
+    </div>
+  </section>
+  <script src="typed.js"></script>
+  <script>
+    var typed = new Typed('.typed', {
+      strings: ["Captain America", "Iron man", "Thor", "Hulk", "Spider Man"],
+      typeSpeed: 100,
+      backSpeed: 50,
+      loop: true
+    });
+  </script>
+  <footer>
+    <div class="footer">
+      <h1>Avengers : The real Heros</h1>
+      <a
+        href="https://www.google.com/search?q=marvel+studios&client=ms-android-xiaomi-rev1&sxsrf=ALeKk02ivjFQJ8WslorZEg78oqVBDuwiqg%3A1624592032013&ei=oE7VYMQNssfj4Q-915OQDw&oq=marvel+studios&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwguEOoCECcyBwguEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECc6BAgAEEc6BAgjECc6BAgAEEM6CAgAELEDEIMBOggILhCxAxCDAToCCAA6BQgAEJECOgUILhCRAjoECC4QQzoICAAQsQMQkQI6CgguELEDEIMBEEM6BwgAELEDEEM6BwgAEIcCEBQ6BQgAELEDOggILhCRAhCTAjoFCC4QsQM6DgguELEDEIMBEMcBEK8BULYfWOlFYIJGaARwAXgAgAH1A4gBhxySAQoyLTEwLjEuMC4xmAEAoAEBsAEPyAEIwAEB&sclient=mobile-gws-wiz-serp"><i
+          class="fa fa-google"></i></a>
+      <a href="https://www.youtube.com/user/MARVEL"><i class="fa fa-youtube"></i></a>
+      <a href="https://m.facebook.com/marvelstudios/"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/marvelstudios/"><i class="fa fa-instagram"></i></a>
+      <p>Copyright &copy;2021 Avengers:TheRealHeros designed by : SachinMule</p>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+  .home {
+    color: black;
+    font-size: 3vw;
+    margin-left: 2vw;
+  }
+
+
+  * {
+    font-family: times new roman;
+  }
+
+  .auto {
+    margin: 0 2vw;
+
+  }
+
+  .auto h1 {
+    text-align: center;
+    font-size: 4vw;
+  }
+
+  .main {
+    display: flex;
+    border-radius: 8vw;
+    background-color: rgb(0, 0, 0, .25);
+    background-blend-mode: overlay;
+  }
+
+  #mi {
+    padding: 2vw;
+    border-radius: 10vw;
+    border: .5vw black solid;
+  }
+
+  #mi:hover {
+    color: white;
+    background-color: black;
+  }
+
+  .left {
+    padding: 0 2vw;
+    margin: 0 2vw;
+  }
+
+  .left .lefty {
+    display: flex;
+    align-items: center;
+    margin: 4vw 0;
+  }
+
+  .span-2 {
+    margin: 0 2vw;
+  }
+
+  #span-3 {
+    font-size: 3vw;
+  }
+
+  #span-4 {
+    font-size: 1.8vw;
+  }
+
+  .right {
+    padding: 0;
+  }
+
+  .right input {
+    width: 25vw;
+    padding: 1.5vw;
+    margin: 3vw 2vw;
+    border: .2vw solid #fff;
+    border-radius: 3vw;
+  }
+
+  .right #btn {
+    color: #fff;
+    width: 20vw;
+    padding: 1vw;
+    background-color: transparent;
+  }
+
+  .right #btn:hover {
+    background-color: #FF00AD;
+    border: solid .2vw #77FFD1;
+
+  }
+
+
+  .footer {
+    font-family: times new roman;
+    text-align: center;
+    padding: 0 3vw;
+    color: var(--primary-color);
+  }
+
+  .footer h1 {
+    font-size: 3.5vw;
+  }
+
+  .footer p {
+    margin-bottom: 0;
+    margin-top: 2vw;
+    font-size: 1.8vw;
+  }
+
+  .footer a {
+    margin: 2vw 1vw;
+    border-radius: 3vw;
+    border: solid .2vw black;
+    font-size: 1.2vw;
+    padding: 1.5vw;
+    color: black;
+  }
+
+  .footer a:hover {
+    color: white;
+    background-color: black;
+  }
+</style>
+
+<body>
+  <div class="auto">
+    <h1>Contact</h1>
+    <p></p>
+    <div class="main">
+      <div class="left">
+        <div class="left-1 lefty">
+          <div class="span-1">
+            <span class="material-icons" id="mi">
+              location_on
+            </span>
+          </div>
+          <div class="span-2">
+            <span id="span-3">Address</span><br>
+            <span id="span-4">Pune, Maharashtra</span>
+          </div>
+        </div>
+        <div class="left-2 lefty">
+          <div class="span-1">
+            <span class="material-icons" id="mi">
+              phone</span>
+          </div>
+          <div class="span-2">
+            <span id="span-3">Phone</span><br>
+            <span id="span-4">+91 9112292404</span>
+          </div>
+        </div>
+        <div class="left-3 lefty">
+          <div class="span-1">
+            <span class="material-icons" id="mi">
+              email
+            </span>
+          </div>
+          <div class="span-2">
+            <span id="span-3">E-mail</span><br>
+            <span id="span-4">sachinmule615@gmail.com</span>
+          </div>
+        </div>
+      </div>
+      <form action="" method="post" name="form_data">
+        <div class="right">
+          <input type="text" placeholder="Full name" class="input" name="Name" required>
+          <br>
+          <input type="email" placeholder="E-mail" class="input" name="E-mail" required>
+          <br>
+          <input type="text-area" placeholder="Comment" class="input" name="Comment" required>
+          <br>
+          <input id="btn" type="submit" value="Send" name="submit">
+        </div>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <div class="footer">
+      <h1>Avengers : The real Heros</h1>
+      <a href="https://www.google.com/search?q=marvel+studios&client=ms-android-xiaomi-rev1&sxsrf=ALeKk02ivjFQJ8WslorZEg78oqVBDuwiqg%3A1624592032013&ei=oE7VYMQNssfj4Q-915OQDw&oq=marvel+studios&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwguEOoCECcyBwguEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECc6BAgAEEc6BAgjECc6BAgAEEM6CAgAELEDEIMBOggILhCxAxCDAToCCAA6BQgAEJECOgUILhCRAjoECC4QQzoICAAQsQMQkQI6CgguELEDEIMBEEM6BwgAELEDEEM6BwgAEIcCEBQ6BQgAELEDOggILhCRAhCTAjoFCC4QsQM6DgguELEDEIMBEMcBEK8BULYfWOlFYIJGaARwAXgAgAH1A4gBhxySAQoyLTEwLjEuMC4xmAEAoAEBsAEPyAEIwAEB&sclient=mobile-gws-wiz-serp"
+        class="a"><i class="fa fa-google"></i></a>
+      <a href="https://www.youtube.com/user/MARVEL" class="a"><i class="fa fa-youtube"></i></a>
+      <a href="https://m.facebook.com/marvelstudios/" class="a"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/marvelstudios/" class="a"><i class="fa fa-instagram"></i></a>
+      <p>Copyright &copy;2021 Avengers:TheRealHeros designed by a SachinMule</p>
+    </div>
+  </footer>
+
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw78OUlDjeeGgpk0qtC3CYGBqnObHzc4estzdnw1g5IsTOTCC_avYx-CpkxC2Bm5vqmOQ/exec'
+    const form = document.forms['form_data']
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,403 @@
+body {
+  background-color: var(--secondary-color);
+  padding: 0;
+  margin: 0 5vw;
+
+
+}  
+  
+            /*menubarstart*/
+   #menubar {  background-color: #FFF2CD;  position: fixed;  height: 100%;  width: 90%;  left: -90%;  font-family: times new roman;}  
+  
+#menubar li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2vw 1vw;
+  font-weight: bold;
+  color: #000000;
+  font-size: 2.5vw;
+  border-bottom: .2vw solid grey;
+  list-style: none;
+}
+
+#menubar li a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.toggle {
+  left: 101%;
+  top: 1vw;
+  position: absolute;
+}
+
+.toggle span {
+  display: block;
+  height: .8vw;
+  width: 3.5vw;
+  margin: .75vw;
+  background-color: red;
+}
+
+#menubar.active {
+  left: 0%;
+}
+
+#material {
+  font-size: 2.5vw;
+}
+
+/*menubar end*/
+:root {
+  --primary-color: #000000;
+  --secondary-color: #FFFFFF;
+}
+
+.dark-theme {
+  --primary-color: #FFFFFF;
+  --secondary-color: #000000;
+
+}
+
+#icon {
+  position: sticky;
+  font-size: 3vw;
+  float: right;
+  margin: 1.2vw 1vw;
+  cursor: pointer;
+
+}
+
+.section-1 .logo {
+  margin: 1vw;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.section-1 .logo img {
+  width: 15%;
+}
+
+.section-2 {
+  text-align: center;
+}
+
+.section-2 .img1 {
+  height: 45vw;
+  width: 70vw;
+  background-size: 70vw 45vw;
+  border-radius: 3vw;
+  border: solid .2vw var(--primary-color);
+  animation: img 10s infinite;
+  margin: auto;
+  background-repeat: no-repeat;
+  object-fit: cover;
+object-position: cover;
+}
+
+
+
+@keyframes img {
+
+  0%,
+  25% {
+    background-image: url('/images/Art.jpeg');
+  }
+
+  50% {
+    background-image: url('/images/age.jpeg');
+  }
+
+  75% {
+    background-image: url('/images/Infinity.jpeg');
+  }
+
+  100% {
+    background-image: url('/images/End game.jpeg');
+  }
+}
+
+.section-3 {
+  border-radius: 3vw;
+  border: solid .2vw var(--primary-color);
+  padding: 1.5vw;
+}
+
+.section-3 .body-2 #text {
+  color: var(--primary-color);
+}
+
+.section-3 .body-1 h1 {
+  animation: h1 3s infinite;
+  font-size: 3vw;
+  letter-spacing: .5vw;
+  font-weight: bold;
+  font-family: 'Goblin One', cursive;
+  -webkit-text-stroke: .2vw var(--primary-color);
+}
+
+@keyframes h1 {
+
+  0%,
+  100% {
+    color: red;
+  }
+
+  40% {
+    color: #BCC500;
+  }
+
+  80% {
+    color: violet;
+  }
+
+}
+
+
+@keyframes animate {
+
+  0%,
+  100% {
+    width: 0%;
+  }
+
+  75% {
+    width: 80%;
+  }
+
+}
+
+.section-3 .body-1 p {
+  font-weight: bold;
+  font-size: 2vw;
+  color: var(--primary-color);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.section-3 .body-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-3 .body-2 .para {
+  border: solid .2vw var(--primary-color);
+  border-radius: 5vw;
+  padding: 2vw 0;
+  background-color: #FFF9B5;
+  margin: 1vw 2vw;
+}
+
+.section-3 .body-2 .para .p {
+  font-size: 1.3vw;
+  font-style: italic;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-indent: 13%;
+  text-align: justify;
+  padding:  0 2vw;
+  margin: 0;
+}
+
+.section-3 .body-2 .para .material-icons {
+  font-size: 3vw;
+  color: #FF7878;
+  margin-left: 10%;
+}
+
+.section-3 .body-2 .para #mcu {
+  padding: 0 3vw;
+  float: right;
+  font-size: 1vw;
+  text-decoration: none;
+}
+
+.section-4 {
+  text-align: center;
+  width: 85%;
+  border: .5vw solid black;
+  border-radius: 5vw;
+  border: solid .2vw var(--primary-color);
+  margin: auto;
+}
+
+.section-4 .wiki1 {
+  background-color: #8FF6FF;
+  padding: 1vw 0;
+  text-align: center;
+  font-size: 1.8vw;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5vw 5vw 0 0;
+}
+
+.section-4 .wiki2 {
+  text-align: center;
+}
+
+.section-4 .wiki2 img {
+  width: 40vw;
+  border-radius: 2vw;
+  border: solid .2vw var(--primary-color);
+}
+
+.section-4 .wiki2 p {
+  width: 50vw;
+  font-size: 1.5vw;
+  margin: auto;
+  font-family: times new roman;
+  color: var(--primary-color);
+}
+
+
+.section-4 .wiki3 p {
+  font-size: 1.8vw;
+  display: flex;
+  margin: 3vw 5vw;
+  justify-content: space-between;
+  font-family: times new roman;
+  color: var(--primary-color);
+}
+
+.section-4 .wiki3 a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+/*Articles section i.e. section-5*/
+.section-5 {
+  padding: 1vw;
+  color: var(--primary-color);
+}
+
+.section-5 .trend {
+  font-style: italic;
+  font-family: times new roman;
+}
+
+.section-5 .trend1,
+.trend2 {
+  font-size: 3vw;
+  margin: 2vw;
+}
+
+.section-5 .trend2 a {
+  color: var(--primary-color);
+}
+
+.section-5 .articles .art-type {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: times new roman;
+  background-color: rgba(0, 0, 0, .15);
+  border-radius: 5vw;
+  padding: 4vw;
+  margin: 2vw 0;
+  border: solid .2vw var(--primary-color);
+}
+
+.section-5 .articles .art-type .art-img img {
+  background-size: 30vw 20vw;
+  width: 30vw;
+  height: 20vw;
+  margin: 0 3vw;
+  border-radius: 3vw;
+  border: solid .2vw var(--primary-color);
+}
+
+.section-5 .articles .art-type .art-text {
+  margin: 0;
+  padding: 0;
+}
+
+.section-5 .articles .art-type .art-text a {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.section-5 .articles .art-type .art-text h1 {
+  font-size: 3vw;
+}
+
+.section-5 .articles .art-type .art-text p {
+  font-size: 2vw;
+}
+
+
+/*End Section 5*/
+
+.footer {
+  font-family: times new roman;
+  text-align: center;
+  padding: 0 3vw;
+  color: var(--primary-color);
+}
+
+.footer h1 {
+  font-size: 3.5vw;
+}
+
+.footer p {
+  margin-bottom: 0;
+  margin-top: 2vw;
+  font-size: 1.8vw;
+}
+
+.footer a {
+  margin: 2vw 1vw;
+  border-radius: 3vw;
+  border: solid .2vw var(--primary-color);
+  font-size: 1.2vw;
+  padding: 1.5vw;
+  color: var(--primary-color);
+}
+
+.footer a:hover {
+  color: white;
+  background-color: black;
+}
+
+
+@media (max-width:400px) {
+
+  .section-2 .img1 {
+    height: 100vw;
+    width: 80vw;
+    background-size: 80vw 100vw;
+  }
+
+  #menubar li {
+    overflow: hidden;
+  }
+
+  .trend {
+    display: flex;
+
+
+  }
+
+  .section-5 .article-1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .section-5 .article-2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-5 .article-3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+}
+
+@media (max-width:800px) {}
